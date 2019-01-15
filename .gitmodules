@@ -1,0 +1,3 @@
+[submodule "IsolBench"]
+	path = IsolBench
+	url = https://github.com/CSL-KU/IsolBench
