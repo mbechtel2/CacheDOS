@@ -1,0 +1,20 @@
+set terminal pdf enhanced mono font "Times-Roman,14"
+set output "Fig13.pdf"
+set yrange [0.0:25]
+set ylabel "Slowdown" offset 1.5
+
+set style data histogram
+set style histogram cluster gap 1.5
+set style fill pattern border
+
+set arrow from -1,1 to 4,1 nohead dt "-"
+
+# No Regulation
+#set label "230.60" at -.5,18
+#set label "345.64" at .44,23
+
+set boxwidth 1
+plot  "Fig13.dat"  u 2:xticlabel(1) title "solo",\
+	  ""                  using 3 title "+1 attacker" lt -1,\
+      ""                  using 4 title "+2 attackers" lt -1,\
+	  "" 				  using 5 title "+3 attackers" lt -1

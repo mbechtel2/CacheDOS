@@ -1,0 +1,19 @@
+set terminal pdf enhanced mono font "Times-Roman,14"
+set output "Fig12.pdf"
+set yrange [0.0:550]
+set ylabel "Bandwidth (MB/s)" offset 1.5
+set nokey
+
+set style data histogram
+set style histogram cluster gap 1.5
+set style fill pattern border
+
+set arrow from -0.5,100 to 3.5,100 nohead dt "-"
+
+set arrow from 1.5,0 to 1.5,550 nohead dt "-"
+
+set label "Read regulation" at 0.1, 570
+set label "Read/Write regulation" at 1.9, 570
+
+set boxwidth 0.5
+plot  "Fig12.dat"  u 2:xticlabel(1) with boxes fs solid 0.2

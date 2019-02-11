@@ -1,0 +1,20 @@
+set terminal pdf enhanced mono font "Times-Roman,14"
+set output "Fig5b.pdf"
+set yrange [0.0:21]
+set ylabel "L2 Cache Miss %" offset 1.5
+
+set style data histogram
+set style histogram cluster gap 1.5
+set style fill pattern border
+
+# no part.
+#set label "0.32" at 1.21,1.1
+
+# PALLOC
+#set label "20.25" at -.05,15
+
+set boxwidth 1
+plot  "Fig5b.dat"  u 2:xticlabel(1) title "solo",\
+	  ""                  using 3 title "+1 attacker" lt -1,\
+      ""                  using 4 title "+2 attackers" lt -1,\
+"" using 5 title "+3 attackers" lt -1

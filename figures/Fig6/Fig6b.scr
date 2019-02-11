@@ -1,0 +1,14 @@
+set terminal pdf font "Times-Roman,14"
+set output "Fig6b.pdf"
+set yrange [0.0:50]
+set ylabel "% of PF Linefills / LLC Loads" offset 1.5
+
+set style data histogram
+set style histogram cluster gap 1.5
+set style fill pattern border
+
+set boxwidth 1
+plot  	"Fig6b.dat"  u 2:xticlabel(1) title "solo",\
+	""           using 3 title "+1 attacker" lt -1,\
+      	""           using 4 title "+2 attackers" lt -1,\
+	"" 	     using 5 title "+3 attackers" lt -1
