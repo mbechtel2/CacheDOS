@@ -1,6 +1,9 @@
-[submodule "IsolBench"]
-	path = IsolBench
-	url = https://github.com/CSL-KU/IsolBench
 [submodule "memguard"]
 	path = memguard
 	url = https://github.com/mbechtel2/memguard
+[submodule "IsolBench"]
+	path = IsolBench
+	url = https://github.com/mbechtel2/IsolBench
+[submodule "base-memguard"]
+	path = base-memguard
+	url = https://github.com/heechul/memguard
