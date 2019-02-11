@@ -1,18 +1,6 @@
 [submodule "IsolBench"]
 	path = IsolBench
 	url = https://github.com/CSL-KU/IsolBench
-[submodule "gem5"]
-	path = gem5
-	url = https://github.com/mbechtel2/gem5
-[submodule "ramulator"]
-	path = ramulator
-	url = https://github.com/mbechtel2/ramulator
-[submodule "gem5-linux"]
-	path = gem5-linux
-	url = https://github.com/CSL-KU/gem5-linux.git
-[submodule "full_system_images"]
-	path = full_system_images
-	url = https://bitbucket.org/farzadfch/full_system_images.git
 [submodule "memguard"]
 	path = memguard
 	url = https://github.com/mbechtel2/memguard
