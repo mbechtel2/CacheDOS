@@ -1,9 +1,12 @@
 [submodule "memguard"]
 	path = memguard
 	url = https://github.com/mbechtel2/memguard
+	branch = rw-reg
 [submodule "IsolBench"]
 	path = IsolBench
 	url = https://github.com/mbechtel2/IsolBench
+	branch = master
 [submodule "base-memguard"]
 	path = base-memguard
 	url = https://github.com/heechul/memguard
+	branch = release
