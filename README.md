@@ -33,12 +33,12 @@ patching instructions please refer to [https://github.com/heechul/palloc](https:
 
 ## Figure creation
 
-Copy results into figures/figure-results.csv (must be done manually),
-specifically in columns B through E. Once all the results are copied
-columns G through K will contain the data to be copied to the corresponding
-.dat files. The file to place the data in will by the cells beginning with a '#'.
+Copy the results into figures/results.csv (must be done manually),
+specifically in columns B through F. Once all the results are copied
+columns H through L will contain the data to be copied to the corresponding
+.dat files. The file to place the data in will be in the cells beginning with a '#'.
 
-A single Figure can be created by going to the figures Fig# directory and running:
+A single Figure can be created by going to the figures /Fig# directory and running:
 
 	$ gnuplot gen.gp
 
