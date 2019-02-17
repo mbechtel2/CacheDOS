@@ -4,7 +4,7 @@ cd ../../memguard
 insmod memguard.ko
 
 #No regulation
-echo "Copying Figure 4 for no regulation results"
+echo "\tCopying Figure 4 for no regulation results"
 cp ../figures/Fig4/results.txt noreg-results.txt
 cd ../IsolBench/scripts
 
