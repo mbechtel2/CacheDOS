@@ -1,0 +1,68 @@
+Figure 4a,,,,,,,#Fig4a.dat,,,,
+,Pi 3,C2,XU4 (A15),Pi 2,XU4 (A7),,“Pi 3(A53)”,=B3/B3,=B4/B3,=B5/B3,=B6/B3
+Solo,,,,,,,“C2(A53”),=C3/C3,=C4/C3,=C5/C3,=C6/C3
++1 attacker,,,,,,,“XU4(A15)”,=D3/D3,=D4/D3,=D5/D3,=D6/D3
++2 attackers,,,,,,,“Pi 2(A7),=E3/E3,=E4/E3,=E5/E3,=E6/E3
++3 attackers,,,,,,,“XU4(A7)”,=F3/F3,=F3/F4,=F5/F3,=F6/F3
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+Figure 4b,,,,,,,#Fig4b.dat,,,,
+,Pi 3,C2,XU4 (A15),Pi 2,XU4 (A7),,“Pi 3(A53)”,=B12/B12,=B13/B12,=B14/B12,=B15/B12
+Solo,,,,,,,“C2(A53”),=C12/C12,=C13/C12,=C14/C12,=C15/C12
++1 attacker,,,,,,,“XU4(A15)”,=D12/D12,=D13/D12,=D14/D12,=D15/D12
++2 attackers,,,,,,,“Pi 2(A7),=E12/E12,=E13/E12,=E14/E12,=E15/E12
++3 attackers,,,,,,,“XU4(A7)”,=F12/F12,=F12/F13,=F14/F12,=F15/F12
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+Figure 5a,,,,,,,#Fig5a.dat,,,,
+,no part.,PALLOC,,,,,“no part.”,=B21/B21,=B22/B21,=B23/B21,=B24/B21
+Solo,,,,,,,“PALLOC”,=C21/C21,=C22/C21,=C23/C21,=C24/C21
++1 attacker,,,,,,,,,,,
++2 attackers,,,,,,,,,,,
++3 attackers,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+Figure 5b,,,,,,,#Fig5b.dat,,,,
+,no part.,PALLOC,,,,,“no part.”,=B30/B30,=B31/B30,=B32/B30,=B33/B30
+Solo,,,,,,,“PALLOC”,=C30/C30,=C31/C30,=C32/C30,=C33/C30
++1 attacker,,,,,,,,,,,
++2 attackers,,,,,,,,,,,
++3 attackers,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+Figure 6a,,,,,,,#Fig6a.dat,,,,
+,Pi 3,C2,Pi 2,,,,“Pi 3(A53)”,=B39/B39,=B40/B39,=B41/B39,=B42/B39
+Solo,,,,,,,“C2(A53)”,=C39/C39,=C40/C39,=C41/C39,=C42/C39
++1 attacker,,,,,,,“Pi 2(A7)”,=D39/D39,=D40/D39,=D41/D39,=D42/D39
++2 attackers,,,,,,,,,,,
++3 attackers,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+Figure 6b,,,,,,,#Fig6b.dat,,,,
+,Pi 3,C2,Pi 2,,,,“Pi 3(A53)”,=B48/B48,=B49/B48,=B50/B48,=B51/B48
+Solo,,,,,,,“C2(A53)”,=C48/C48,=C49/C48,=C50/C48,=C51/C48
++1 attacker,,,,,,,“Pi 2(A7)”,=D48/D48,=D49/D48,=D50/D48,=D51/D48
++2 attackers,,,,,,,,,,,
++3 attackers,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+Figure 11,,,,,,,#Fig11.dat,,,,
+,Baseline,Modified,,,,,“BwRead”,=B57,,,
+BwRead,,,,,,,“BwWrite”,=B58,,,
+BwWrite,,,,,,,“BwRead”,=C57,,,
+,,,,,,,“BwWrite”,=C58,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+Figure 13,,,,,,,#Fig13.dat,,,,
+,No reg.,1000R/100W,500R/100W,500R/50R,,,“No regulation”,=B65/B65,=B66/B65,=B67/B65,=B68/B65
+Solo,,,,,,,“1000R/100W”,=C65/C65,=C66/C65,=C67/C65,=C68/C65
++1 attacker,,,,,,,“500R/100W”,=D65/D65,=D66/D65,=D67/D65,=D68/D65
++2 attackers,,,,,,,“500R/50W”,=E65/E65,=E66/E65,=E67/E65,=E68/E65
++3 attackers,,,,,,,,,,,
