@@ -45,7 +45,7 @@ in its Fig# directory. These results need to be manually copied to figures/resul
 specifically in the columns for that figure (typically B through F).
 
 For example text files and the relevant data to place in the results.csv file, please
-refer to [https://github.com/mbechtel2/CacheDOS/wiki/Example-Results](Example Results).
+refer to [Example Results](https://github.com/mbechtel2/CacheDOS/wiki/Example-Results).
 
 ### Plot Generation
 
