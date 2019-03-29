@@ -15,7 +15,7 @@
 
 ### Maximize performance
 
-	$ sudo ./scripts/maxperf.sh
+	$ sudo ./util/maxperf.sh
 	$ sudo service lightdm stop
 
 ## Evaluation
